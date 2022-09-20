@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex11</title>
+</head>
+<body>
+    <script>
+ //valor do jantar ate 100/garçom=0.1%
+  //valor do jantar maior que 100/garçom=0.7%
+    var jantar=Number(prompt("Valor do jantar: "));
+    var total=jantar+garçom;
+   
+  if(jantar<=100){
+    var garçom=(jantar/100)*10;
+    alert("a taxa do garçom é: "+garçom.toFixed(2)+" e o total do jantar + a taxa do garçom é: R$"+ total.toFixed(2));
+  }
+  else{ 
+    var garçom=(jantar/100)*7;
+    alert("a taxa do garçom é: "+garçom.toFixed(2)+" e o total do jantar + a taxa do garçom é: R$"+ total.toFixed(2));
+}
+
+
+   </script>
+    
+</body>
+</html>
